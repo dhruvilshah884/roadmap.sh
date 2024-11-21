@@ -1,0 +1,120 @@
+/* Sidebar styles */
+.bg-darkBlue {
+    background-color: #2a3f54;
+  }
+  
+  /* .hover\\:bg-darkLighter:hover {
+    background-color: #3a4f64;
+  } */
+  
+  /* Form container */
+  .add-roadmap-container {
+    display: flex;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .roadmap-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  /* General Layout */
+.main-container {
+    display: flex;
+    background-color: #f9fafb;
+  }
+  
+  .content-container {
+    flex-grow: 1;
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  
+  /* Table Styling */
+  .table-container {
+    overflow-x: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .styled-table th {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr:nth-child(odd) {
+    background-color: #f3f4f6;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #e0e7ff;
+    transition: background-color 0.2s;
+  }
+  
+  .empty-message {
+    text-align: center;
+    font-style: italic;
+    color: #9ca3af;
+  }
+  
+  .roadmap-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
